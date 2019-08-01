@@ -1,0 +1,30 @@
+/* 전체 선택자 */
+/* cascading 이기 때문에 아랫쪽이 우선순위로 적용이 된다.(덮어진다) */
+* {
+  color: red;
+}
+/* 태그 선택자 */
+h1 {
+  color: blue;
+}
+/* 클래스 선택자 */
+.pink {
+  color: pink;
+}
+.yellow {
+  color: yellow;
+}
+.bold {
+  font-weight: bold;
+}
+/* 아이디 선택자 */
+#green {
+  color: green;
+}
+#puple {
+  color: purple;
+}
+#orange {
+  color: brown !important;
+  color: orange;
+}
