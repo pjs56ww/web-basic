@@ -1,0 +1,43 @@
+<!-- form은 어디로 제출할지, 어떻게 제출할지 두 가지는 항상 작성을 해야한다. -->
+<!DOCTYPE html>
+<!-- 세살버릇 여든간다 1 => 속성값 줄 때 띄어쓰기x, 쌍따온표 쓰기 -->
+<!-- 세살버릇 여든간다 2 => indenting 2칸으로 맞추기 -->
+<!-- 세살버릇 여든간다 3 -->
+<!-- HTML input type => w3schools.com -->
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+  <form action="#"> <!-- action은 어디로 form을 제출할 지 정함, #을 넣으면 아무데도 보내지 않겠다. -->
+    TEXT: <input type="text" placeholder="내용을 입력해주세요" name="id"/><br/>    
+    NUMBER: <input type="number" disabled/><br/>
+    PASSWORD: <input type="password"/><br/>
+    E-MAIL: <input type="email"/><br/>
+    DATE: <input type="date" value="2019-08-01" name="birth_day"/><br/>
+
+    <input type="radio" name="language" value="1" checked/>HTML<br/> <!-- true, false를 쓰는 것이 아닌 그냥 checked를 쓰는게 관례 -->
+    <input type="radio" name="language" value="2"/>CSS<br/>
+    <input type="radio" name="language" value="3"/>JS<br/>
+    <hr/>
+
+    <select name="country">
+      <option value="1">한국</option>
+      <option value="2" selected>중국</option>
+      <option value="3" disabled>일본</option>
+    </select><br/>
+
+    <!-- checkbox는 여러개 선택이 가능하다. -->
+    <input type="checkbox" name="option" value="1"/>
+    <input type="checkbox" name="option" value="2"/><br/>
+
+    <input type="color" value="#FF6600"/><br/>
+
+    <input type="submit" value="제출하기"/>
+
+  </form> 
+</body>
+</html>
