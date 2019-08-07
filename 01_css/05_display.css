@@ -1,0 +1,18 @@
+body {
+  margin-top: 0;
+}
+h1 {
+  margin: 0px;
+}
+li {
+  display: inline;
+  margin: 20px;
+  padding: 10px
+}
+#bye {
+  display: none;
+
+}
+#hollow {
+  visibility: hidden
+}

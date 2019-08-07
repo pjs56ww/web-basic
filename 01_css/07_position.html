@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="07_position.css">
+</head>
+
+<body>
+  <div class="ground">
+    <div class="parent">
+      <div class="parent">
+        <div class="absolute box">
+          absolute
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed box">
+    fixed
+  </div>
+
+  <!-- 움직임이 없는, 있는 그대로를 따르겠다. -->
+  <h1>1. Static</h1>
+  <div class="box">static</div>
+  <div class="box">static</div>
+
+  <h2>2. Relative</h2>
+  <!-- 현재 parent는 static 요소 -->
+
+  <div class="relative box">
+    <!-- static position은 바뀌지 않음 -->
+    <!-- border에 의해 오차가 발생 -->
+    relative
+  </div>
+
+  <h1>3. Float</h1>
+  <div>
+    <img src="https://picsum.photos/id/484/200/300">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+
+
+</body>
+
+</html>
