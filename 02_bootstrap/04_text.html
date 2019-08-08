@@ -8,28 +8,33 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Colors</title>
-  <style>
-  div {
-    width: 100px;
-    height: 100px;
-  }
-  </style>
+  <title>Text</title>
 </head>
 
-<body class="mt-5 ml-5">
-<div class="border border-primary">경계를 파란색으로</div>
-<div class="border border-danger">경계를 빨간색으로</div>
+<body>
+  <!-- 기본적인 텍스트 정렬 -->
+  <p class="text-left">왼쪽으로 정렬됐어요</p>
+  <p class="text-right">오른쪽으로 정렬됐어요</p>
+  <p class="text-center">가운데로 정렬됐어요</p>
+  <hr />
 
-<div class="border">이건 4군데 다 경계가 있음</div>
+  <!-- 텍스트 대소문자 -->
+  <p class="text-lowercase">Lowercased Text.</p>
+  <p class="text-uppercase">Uppercased Text.</p>
+  <hr />
 
-<div class="border-top">이건 탑만</div>
-<br>
-<div class="border-right">요건 오른쪽만</div>
-<br>
-<div class="border-left border-dark">이건 왼쪽만</div>
-<br>
-<img src="/images/고양이.jpg" alt="" class="rounded-pill">
+  <!-- 폰트 굵기 및 이텔릭 -->
+  <p class="font-weight-bold">Bold Text.</p>
+  <p class="font-weight-normal">Normal Text.</p>
+  <p class="font-weight-light">Light Text.</p>
+  <p class="font-italic">Italic Text.</p>
+  <p class="font-italic font-weight-bold">aaa</p>
+  <hr/>
+
+  <!-- monospace -->
+  <!-- monospace란 문자에 따라 space가 다른 게 아닌 동일하게 맞춰준 것=> 코딩할때 항상 monospace -->
+  <p class="text-monospace">print('BTS bring me here')</p>
+
 
   <!-- Bootstrap Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
